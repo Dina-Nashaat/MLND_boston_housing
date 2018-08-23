@@ -12506,6 +12506,7 @@ Think about the pros and cons of adding more training points based on if the tra
 </tr>
 </tbody>
 </table>
+<p><em>Examples from Lecture <code>Grid Search</code> from <code>Lesson 3: Model Validation</code></em></p>
 
 </div>
 </div>
@@ -12556,7 +12557,8 @@ Initially, we have</p>
 ---------------------------------
 | Train | Test  | Train | Test  |
 ---------------------------------</code></pre>
-<p><strong>Benefits</strong></p>
+<p>*Example from lecture <code>K-Fold cross validation</code> from <code>Lesson 3: Model Selection</code>
+<strong>Benefits</strong></p>
 <ul>
 <li><p>The reason we have cross validation is to avoid 'leaking' test data into the model; consequently, performance might no longer report correctly or generally. Using Cross Validation sets aside a portion of the training set, and uses it as though it is a test set.</p>
 </li>
@@ -12903,7 +12905,7 @@ Range in prices: $31,278.95
 Nowadays, this model would not be fit to be used in a real-world setting. It would be far away from predicting the correct price, and that is for the following reasons:</p>
 <ul>
 <li>The data was collected in 1978, which indicates that the data is no longer relevant due to the increase in prices and values of houses. Inflation plays an important role in how realstic the data can be; with inflation, money supply increases, and as a result house prices increase.</li>
-<li>The features present can be indicative, however, more features can be taken into consideration to determine a more precise value, features like <code>lat</code>and <code>lng</code>, <code>median house age</code>, <code>median income</code>, <code>presence of pool</code> can all be features capturing variation in house price.</li>
+<li>The features present can be indicative, however, more features can be taken into consideration to determine a more precise value, features like <code>lat</code>and <code>lng</code>, <code>house age</code>, <code>indviduals income</code>, <code>presence of pool</code> can all be features capturing variation in house price.</li>
 <li>The data collected can only be safely used in an urban City - <em>I believe maybe only in Boston too</em> - however, in a rural city, the prices may vary drastically. As mentioned above features like <code>lat</code> and <code>lng</code> can be a very important determiner to house prices.</li>
 </ul>
 <p>One might argue with the fairness of judging a price of an indvidual home to the entire neighborhood, however, it is one of the strongest indicators of price variation. Because a neighbourhood contributes greatly in the quality of life of the individual, and with higher quality of life, comes higher house prices.</p>
